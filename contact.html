@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zylix</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="cc.css">
+    <!--fon awosame icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--navbar-->
+<nav class="navbar">
+    <h1>Zylix</h1>
+    <div class="navbar-links">
+        <P class="navbar-link"><a href="index.html">Home</a></P>
+        <P class="navbar-link"><a href="collaction.html">Collactions</a></P>
+        <P class="navbar-link"><a href="contact.html">Contact</a></P>
+    </div>
+    <div class="navbar-menu-toggle" onclick="showNavbar()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</nav>
+
+
+<!--side navbar-->
+<div class="side-navbar">
+    <p style="text-align: right;" onclick="closeNavbar()">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </p>
+
+    <div class="side-navbar-links">
+        <P class="side-navbar-link"><a href="index.html">Home</a></P>
+        <P class="side-navbar-link"><a href="collaction.html">Collactions</a></P>
+        <P class="side-navbar-link"><a href="contact.html">Contact</a></P>
+    </div>
+</div>
+
+<div class=" contact-us">
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button alt="Send Message">
+            <i>S</i>
+            <i>e</i>
+            <i>n</i>
+            <i>d</i>
+            <i>&nbsp;</i>
+            <i>M</i>
+            <i>a</i>
+            <i>s</i>
+            <i>s</i>
+            <i>a</i>
+            <i>g</i>
+            <i>e</i>
+          </button>
+    </form>
+</div>
+
+
+
+
+
+
+
+<center>    <!--Footer-->
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="heading-text"> ZYLIX</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ad.</p>
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color: white;"></i>
+                <i class="fa-brands fa-facebook" style="color: white;"></i>
+                <i class="fa-brands fa-linkedin" style="color: white;"></i>
+
+            </div>
+        </div>
+    </div>
+    <p>@ 2024Zylix.com</p>
+</div>
+</center>
+<script src="contact.js"></script>
+
+</body>
+</html>
